@@ -546,6 +546,30 @@ st.markdown(f"""
 
 }}
 
+.description-box,
+.luna-box,
+.title-card,
+.streak-card,
+.achievement-card,
+.locked-card,
+.level-card {{
+
+    color:#222222;
+
+}}
+
+.description-box *,
+.luna-box *,
+.title-card *,
+.streak-card *,
+.achievement-card *,
+.locked-card *,
+.level-card * {{
+
+    color:#222222;
+
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
