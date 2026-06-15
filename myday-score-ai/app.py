@@ -593,6 +593,18 @@ p, span, label, div {{
 
 }}
 
+.stButton > button {{
+
+    background:#ff8ac6 !important;
+
+    color:white !important;
+
+    border:none !important;
+
+    border-radius:10px !important;
+
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
