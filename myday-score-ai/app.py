@@ -570,6 +570,29 @@ st.markdown(f"""
 
 }}
 
+.main-title,
+.sub-title,
+h1, h2, h3, h4, h5, h6,
+p, span, label, div {{
+
+    color:#222222;
+
+}}
+
+.stMarkdown,
+.stMarkdown * {{
+
+    color:#222222;
+
+}}
+
+[data-testid="stMarkdownContainer"],
+[data-testid="stMarkdownContainer"] * {{
+
+    color:#222222;
+
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
